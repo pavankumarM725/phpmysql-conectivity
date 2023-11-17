@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>  
+    <head>
+        <title>Employee data</title>
+        <link rel="stylesheet" href="emp.css">
+        </head>
+    <body style="background-color: lightcoral;">
+
+<form action="getdetails.php" method="get">
+    <section >
+        <h3 id="per"><center><marquee direction="right">Personal Details</marquee></center></h3>
+         <div class="first">
+         <div>
+         <label for="fname">Enter your first name :</pre></label>
+         <input type="text" name="fname"><br><br>
+         </div>
+         <div>
+         <label for="sname">Enter your second name:</pre</label>
+          <input type="text" name="sname"><br><br>
+          </div>
+          <div>
+          <label for="lname">Enter your last name  :   </label>
+          <input type="text" name="lname"><br><br>
+          </div>
+          <div>
+          <label for="age">Enter your Age  :   </label>
+          <input type="text" name="age"><br><br>
+          </div>
+          <div>
+          <label for="dob">Enter your date of birth  :   </label>
+          <input type="date" name="dob"><br><br>
+          </div>
+          <div>
+            <label for="">Enter your gender:</label>
+            <input type="radio" name="gender" id="male" value="Male">Male
+            <input type="radio" name="gender" id="female" value="female">Female
+            <input type="radio" name="gender" id="others" value="Others">Others
+            </div>
+        </div>
+       </section>
+
+
+
+       <section>
+        <h3 id="per"><center><marquee direction="right">Professional Details</marquee></center></h3>
+         <div class="second">
+            <div>
+                <div>
+                    <label for="Experieance">Enter your year of experience:   </label>
+                    <input type="text" name="exp"><br><br>
+                 </div>
+                 <label for="skills">Enter your skills:</label>
+                 <input type="text" name="skills"><br><br>
+                 </div>
+                 <div>
+                  <label for="num">Enter your Mobile number :   </label>
+                  <input type="tel" name="num"><br><br>
+                  </div>
+                  <div>
+                   <label for="mail">Enter your email :   </label>
+                  <input type="email" name="mail"><br><br>
+                  </div>
+                  <div>
+                     <label for="CGPA">Enter your CGPA in Professional degree:   </label>
+                     <input type="text" name="cgpa"><br><br>
+                  </div>
+                 
+         </div>
+       </section><br><br>
+       <div style="text-align: center;">  
+        <input type="submit" class="button" />  
+    </div> 
+</form>
+
+</body>
+</html>
